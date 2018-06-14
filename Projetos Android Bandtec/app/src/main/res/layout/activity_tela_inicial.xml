@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInicial">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goku"
+        android:id="@+id/btnGoku"
+        android:onClick="Transformar"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegeta"
+        android:id="@+id/btnVegeta"
+        android:layout_marginLeft="450px"
+        android:onClick="Transformar"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgGoku"
+        android:layout_below="@id/btnGoku"
+        android:src="@mipmap/goku"
+        android:maxWidth="70dp"
+        android:maxHeight="70dp"
+        android:minWidth="70dp"
+        android:minHeight="70dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgGokuSsj"
+        android:layout_below="@id/imgGoku"
+        android:src="@mipmap/gokussj"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgVegeta"
+        android:layout_below="@id/btnVegeta"
+        android:src="@mipmap/vegeta"
+        android:layout_marginLeft="500px"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgVegetaSsj"
+        android:layout_below="@id/imgVegeta"
+        android:src="@mipmap/vegetassj"
+        android:maxWidth="70dp"
+        android:maxHeight="70dp"
+        android:minWidth="70dp"
+        android:minHeight="70dp"
+        android:layout_marginLeft="500px"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

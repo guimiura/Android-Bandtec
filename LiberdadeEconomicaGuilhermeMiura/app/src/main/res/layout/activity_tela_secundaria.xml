@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaSecundaria">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPaisMaisLivre"
+        android:text="@string/txtViewPaisMaisLivre"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoPaisMaisLivre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        style="@style/negritoAzul"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCategoria"
+        android:text="@string/txtViewCategoria"
+        android:layout_below="@id/txtPaisMaisLivre"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoCategoria"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@+id/txtResultadoPaisMaisLivre"
+        android:layout_below="@+id/txtPaisMaisLivre"
+         />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHabitantes"
+        android:text="@string/txtViewHabitantes"
+        android:layout_below="@id/txtCategoria"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoHabitantes"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtResultadoPaisMaisLivre"
+        android:layout_below="@+id/txtCategoria"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdh"
+        android:text="@string/txtViewIdh"
+        android:layout_below="@id/txtHabitantes"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoIdh"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHabitantes"
+        android:layout_toRightOf="@+id/txtIdh" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesemprego"
+        android:text="@string/txtViewDesemprego"
+        android:layout_below="@id/txtHabitantes"
+        android:layout_marginLeft="150dp"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoDesemprego"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtHabitantes"
+        android:layout_marginRight="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPaisMenosLivre"
+        android:text="@string/txtViewPaisMenosLivre"
+        android:layout_below="@id/txtIdh"
+        android:layout_marginTop="15dp"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoPaisMenosLivre"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/txtPaisMenosLivre"
+        android:layout_marginLeft="165dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMenorCategoria"
+        android:text="@string/txtViewCategoria"
+        android:layout_below="@id/txtPaisMenosLivre"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoMenorCategoria"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtResultadoPaisMaisLivre"
+        android:layout_below="@+id/txtPaisMenosLivre" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHabitantes2"
+        android:text="@string/txtViewHabitantes"
+        android:layout_below="@id/txtMenorCategoria"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoHabitantes2"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtResultadoPaisMaisLivre"
+        android:layout_below="@+id/txtMenorCategoria" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdh2"
+        android:text="@string/txtViewIdh"
+        android:layout_below="@id/txtHabitantes2"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoIdh2"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtHabitantes2"
+        android:layout_marginLeft="138dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesemprego2"
+        android:text="@string/txtViewDesemprego"
+        android:layout_below="@id/txtHabitantes2"
+        android:layout_marginLeft="150dp"
+        style="@style/azul"
+        />
+
+    <TextView
+        android:id="@+id/txtResultadoDesemprego2"
+        style="@style/negritoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtResultadoDesemprego"
+        android:layout_below="@+id/txtHabitantes2" />
+
+</RelativeLayout>

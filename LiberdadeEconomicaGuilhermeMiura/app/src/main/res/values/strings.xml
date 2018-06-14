@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LiberdadeEconomica-Guilherme-Miura</string>
+    <string name="txtViewNomePais">Nome do país: </string>
+    <string name="txtViewPopulacao">População do país: </string>
+    <string name="txtViewLiberdade">Grau de liberdade do país: </string>
+    <string name="btnCadastroPais">Cadastrar País</string>
+    <string name="toastErroPopulacao">População deve ser pelo menos 1000</string>
+    <string name="toastErroNomePais">Nome do país deve ter pelo menos 3 letras</string>
+    <string name="toastErroLiberdade">Grau de liberdade deve estar entre 0 e 100</string>
+    <string name="txtViewPaisMaisLivre">País mais livre:</string>
+    <string name="txtViewCategoria">Categoria</string>
+    <string name="txtViewHabitantes">Habitantes</string>
+    <string name="txtViewIdh">IDH médio provável:</string>
+    <string name="txtViewPaisMenosLivre">País menos livre:</string>
+    <string name="txtViewDesemprego">Desemprego Provável:</string>
+</resources>

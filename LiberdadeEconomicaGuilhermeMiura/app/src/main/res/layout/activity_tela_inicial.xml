@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInicial">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewNomePais"
+        android:id="@+id/txtNomePais"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNomePais"
+        android:layout_below="@id/txtNomePais"
+        />
+    <TextView
+        android:layout_marginTop="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewPopulacao"
+        android:id="@+id/txtPopulacaoPais"
+        android:layout_below="@id/editNomePais"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPopulacaoPais"
+        android:inputType="number"
+        android:layout_below="@id/txtPopulacaoPais"
+        />
+    <TextView
+        android:layout_marginTop="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewLiberdade"
+        android:id="@+id/txtLiberdadePais"
+        android:layout_below="@id/editPopulacaoPais"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLiberdadePais"
+        android:inputType="number"
+        android:layout_below="@id/txtLiberdadePais"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:id="@+id/btnCadastrarPais"
+        android:text="@string/btnCadastroPais"
+        android:layout_below="@id/editLiberdadePais"
+        android:onClick="CadastrarPais"
+        />
+
+
+</RelativeLayout>
